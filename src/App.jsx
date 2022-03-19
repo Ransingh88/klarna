@@ -11,8 +11,8 @@ function App() {
       <Navbar/>
       <div className="app__container">
         <Routes>
-          {/* <Route path="/" element={<Deals/>}/> */}
-          <Route path="/deals" element={<Deals/>}/>
+          <Route path="/" element={<Deals/>}/>
+          {/* <Route path="/deals" element={<Deals/>}/> */}
           <Route path="*" element={<Error/>}/>
         </Routes>
       </div>
