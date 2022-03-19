@@ -4,7 +4,6 @@ import './deals.css'
 import { useDispatch, useSelector } from 'react-redux'
 import {caragory,filterSearch,discount,filterType} from '../features/filter/filterSlice'
 import { BiFilterAlt } from "react-icons/bi";
-import CardItem from '../components/cardItem/CardItem'
 
 const Deals = () => {
 
