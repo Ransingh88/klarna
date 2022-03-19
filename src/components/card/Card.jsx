@@ -5,7 +5,7 @@ const Card = ({img,title,desc,discount}) => {
   return (
     <div className='card'>
       <div className='card__image'>
-        <img src={img} alt="product Image" />
+        <img src={img} alt={img} />
         <div className='card__discount'>
           <h2>Extra</h2>
           <h1>{discount}% <span>off</span></h1>
