@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CardItem from '../cardItem/CardItem'
 import './card.css'
 
-const Card = ({img,title,desc,discount}) => {
+const Card = ({img,title,desc,discount,popup}) => {
+
+const [openModal,setOpenModal] = useState(false)
+  const handleOpen =()=>{
+    setOpenModal(true)
+    popup()
+  }
+  
+  const handleClose =()=>{
+    setOpenModal(false)
+    popup()
+  }
+
   return (
-    <div className='card'>
+    <>
+    <div className='card' onClick={handleOpen}>
       <div className='card__image'>
         <img src={img} alt={img} />
         <div className='card__discount'>
@@ -16,6 +30,8 @@ const Card = ({img,title,desc,discount}) => {
         <p>{desc}</p>
         </div>
     </div>
+    {openModal && <CardItem title={title} desc={desc} img={img} fn={handleClose}/>}
+    </>
   )
 }
 

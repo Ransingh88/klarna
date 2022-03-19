@@ -4,6 +4,7 @@ import './deals.css'
 import { useDispatch, useSelector } from 'react-redux'
 import {caragory,filterSearch,discount,filterType} from '../features/filter/filterSlice'
 import { BiFilterAlt } from "react-icons/bi";
+import CardItem from '../components/cardItem/CardItem'
 
 const Deals = () => {
 
@@ -41,6 +42,12 @@ const Deals = () => {
             dispatch(filterType())
         }
     }
+
+    const handlePopUP = ()=>{
+        console.log("popup clicked");
+    }
+
+    
   return (
     <div className='deals'>
         <div className="deals__heading">
@@ -132,10 +139,13 @@ const Deals = () => {
                 <div className="productSection__products">
 
                     {data.length <= 0 ? <p>No matches found</p>:data.map((ele,k)=>(
-                        
-                        <Card key={k} img={ele.image} title={ele.title} desc={ele.title} discount={ele.discount}/>
+                    
+                        <Card key={k} img={ele.image} title={ele.title} desc={ele.title} discount={ele.discount} popup={handlePopUP}/>
 
+                        
+                    
                     ))}
+                    
                 </div>
             </div>
         </div>
