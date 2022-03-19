@@ -1,0 +1,34 @@
+:root{
+  --k-dark: #0e0e0f;
+  --k-lightblue:#D1E2FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--k-dark);
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__container{
+  /* width: 100%; */
+  margin: 80px 40px;
+  padding: 10px 30px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 920px) {
+  * {
+    transition: 0.5s ease-in-out;
+  }
+  .app__container{
+    margin: 80px 20px;
+  padding: 10px 15px;
+  }
+
+}

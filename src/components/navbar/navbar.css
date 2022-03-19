@@ -1,0 +1,116 @@
+.navbar{
+    /* padding: 1.6rem; */
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 10000;
+}
+.navbar__container{
+    width: 96%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+}
+.navbar__menus{
+    margin: 0 1.5rem;
+    display: flex;
+}
+.navbar__menus p{
+    box-sizing: border-box;
+    margin: 0 1rem;
+    padding: 2px;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+}
+.navbar__menus p:hover{
+    transition: 0.2s ease;
+    color: steelblue;
+    border-bottom: 1px solid steelblue;
+    cursor: pointer;
+    
+}
+
+.navbar__right{
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar__login,.navbar__getapp{
+    background-color: white;
+    border:1px solid var(--k-dark);
+    border-radius: 1rem;
+    outline: none;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+}
+.navbar__login:hover{
+    background-color: var(--k-dark);
+    color: white;
+    cursor: pointer;
+}
+.navbar__getapp:hover{
+    background-color: white;
+    color: var(--k-dark);
+    cursor: pointer;
+}
+.navbar__getapp{
+    background-color: var(--k-dark);
+    color: white;
+    
+}
+.menuIcon{
+    display: none;
+    font-size: 30px;
+}
+.mobile-navbar__menus{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    transition: 0.5s ease-in-out;
+}
+.mobile-navbar__menus p{
+    margin: 0 10px;
+    padding: 0.8rem 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+.mobile-navbar__menus p:hover{
+    cursor: pointer;
+    color: steelblue
+}
+
+@media screen and (max-width:1024px) {
+    *{
+        transition: 0.5s ease-in-out;
+    }
+    .navbar__menus,.navbar__getapp{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .navbar__container{
+        width: 90%;
+    }
+}

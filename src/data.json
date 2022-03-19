@@ -1,0 +1,172 @@
+[
+    {
+        "id":1003,
+        "title":"Kidsbooks.com",
+        "desc":"Create dazzling, shimmering perfection",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453209/klarna/image--Zj1PrQ_j7ykkc.jpg",
+        "catagory":"Babies & Kids",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1003,
+        "title":"Kidsbooks.com",
+        "desc":"Create dazzling, shimmering perfection",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--Bqv8aa_ia6w1c.png",
+        "catagory":"Babies & Kids",
+        "discount":35,
+        "type":["Only Coupons","Exclusives","BOGO and more"]
+
+    },
+    {
+        "id":1001,
+        "title":"Kids Foot Locker",
+        "desc":"Save on kids clothes",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453209/klarna/image--YdHPMe_hxonmb.jpg",
+        "catagory":"Babies & Kids",
+        "discount":40,
+        "type":["Exclusives"]
+
+    },
+    {
+        "id":1004,
+        "title":"Tommy Hilfiger",
+        "desc":"Even more fresh styles",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453212/klarna/image--dvRVWX_tcu57w.jpg",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["BOGO and more","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Cole Haan",
+        "desc":"Treat your feet",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453212/klarna/image--dYDRUa_sxfdbn.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["BOGO and more"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453208/klarna/image--xPiwHr_d8ahkm.jpg",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","BOGO and more"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453209/klarna/image--bDY7JO_tpa6kx.jpg",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1002,
+        "title":"Samuel Johnston",
+        "desc":"The best baby products",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453203/klarna/image--RWnl5L_ewm1tw.jpg",
+        "catagory":"Babies & Kids",
+        "discount":60,
+        "type":["BOGO and more","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--bz0xuM_odmcq0.jpg",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--bSIVkQ_qa8mun.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--Bqv8aa_ia6w1c.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--c475Jr_rombjy.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--c88cdW_jwy0fm.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453210/klarna/image--cmUTfb_taelrs.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453211/klarna/image--CNv2OE_e2blvy.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453211/klarna/image--DLoIZ0_qxcdqm.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    },
+    {
+        "id":1005,
+        "title":"Missguided",
+        "desc":"Fresh looks",
+        "image":"https://res.cloudinary.com/dransinghdev/image/upload/v1647453212/klarna/image--dYDRUa_sxfdbn.png",
+        "catagory":"Clothing & Apparel",
+        "discount":35,
+        "type":["Only Coupons","Exclusives"]
+
+    }
+]
