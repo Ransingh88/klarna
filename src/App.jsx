@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Deals from './pages/Deals';
 import Footer from './components/footer/Footer';
-import {Navigate, Route,Routes} from 'react-router-dom'
+import {Route,Routes} from 'react-router-dom'
 import Error from './pages/Error';
 
 function App() {
